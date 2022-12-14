@@ -14,7 +14,7 @@ I'm happy to demonstrate this project in a video call, if desired.
 ## Instructions
 - Download the repository, and open it with Visual Studio.
 - Modify appsettings.json file.
-  - The "EmailerSettings" object needs an email address and password for you to send emails.
+  - The "EmailerSettings" object needs an email address and password for you to send emails (I have credentials, but I don't want to put them on GitHub).
   - The "ConnectionStrings" object currently creates local databases. Change if necessary.
 - Update the database, by opening the PMC (Package Manager Console) and entering the "update-database" command.
 - Run the program.
