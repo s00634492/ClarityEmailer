@@ -8,7 +8,7 @@ namespace ClarityEmailer.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage="Missing recipient email address.")]
-        [RegularExpression(@"([a-zA-Z\.\-])+\@([a-zA-Z\-])+\.([a-zA-Z\.\-])+", ErrorMessage ="Invalid recipient email address.")]
+        [RegularExpression(@"([a-zA-Z0-9\.\-])+\@([a-zA-Z0-9\-])+\.([a-zA-Z0-9\.\-])+", ErrorMessage ="Invalid recipient email address.")]
         public string Recipient { get; set; }
 
         public string Subject { get; set; }
