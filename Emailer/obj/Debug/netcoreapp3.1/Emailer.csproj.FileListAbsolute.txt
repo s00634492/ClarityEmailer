@@ -1,0 +1,10 @@
+C:\Users\kevin\Desktop\coding\dotNET junk\ClarityEmailer\Emailer\bin\Debug\netcoreapp3.1\Emailer.deps.json
+C:\Users\kevin\Desktop\coding\dotNET junk\ClarityEmailer\Emailer\bin\Debug\netcoreapp3.1\Emailer.dll
+C:\Users\kevin\Desktop\coding\dotNET junk\ClarityEmailer\Emailer\bin\Debug\netcoreapp3.1\Emailer.pdb
+C:\Users\kevin\Desktop\coding\dotNET junk\ClarityEmailer\Emailer\obj\Debug\netcoreapp3.1\Emailer.csproj.AssemblyReference.cache
+C:\Users\kevin\Desktop\coding\dotNET junk\ClarityEmailer\Emailer\obj\Debug\netcoreapp3.1\Emailer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\Desktop\coding\dotNET junk\ClarityEmailer\Emailer\obj\Debug\netcoreapp3.1\Emailer.AssemblyInfoInputs.cache
+C:\Users\kevin\Desktop\coding\dotNET junk\ClarityEmailer\Emailer\obj\Debug\netcoreapp3.1\Emailer.AssemblyInfo.cs
+C:\Users\kevin\Desktop\coding\dotNET junk\ClarityEmailer\Emailer\obj\Debug\netcoreapp3.1\Emailer.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Desktop\coding\dotNET junk\ClarityEmailer\Emailer\obj\Debug\netcoreapp3.1\Emailer.dll
+C:\Users\kevin\Desktop\coding\dotNET junk\ClarityEmailer\Emailer\obj\Debug\netcoreapp3.1\Emailer.pdb

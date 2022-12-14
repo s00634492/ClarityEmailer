@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClarityEmailer", "ClarityEmailer\ClarityEmailer.csproj", "{427659EF-8C93-485C-A515-E258C4FB98DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emailer", "Emailer\Emailer.csproj", "{526D6E40-EE5F-478F-B81D-8CDC319C8694}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{427659EF-8C93-485C-A515-E258C4FB98DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427659EF-8C93-485C-A515-E258C4FB98DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427659EF-8C93-485C-A515-E258C4FB98DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427659EF-8C93-485C-A515-E258C4FB98DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526D6E40-EE5F-478F-B81D-8CDC319C8694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526D6E40-EE5F-478F-B81D-8CDC319C8694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526D6E40-EE5F-478F-B81D-8CDC319C8694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526D6E40-EE5F-478F-B81D-8CDC319C8694}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EF77CF5-A848-4D9B-BA62-F2C467862FF0}
+	EndGlobalSection
+EndGlobal
