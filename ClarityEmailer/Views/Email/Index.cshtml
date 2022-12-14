@@ -1,0 +1,33 @@
+﻿@model EmailModel
+@{
+    ViewBag.Title = "Send an email";
+}
+
+<h4>@ViewBag.Title</h4>
+<p>This is where you can send an email.</p>
+
+<form asp-action="Index" method="post" id="emailForm">
+    @if (TempData["FormError"]!=null)
+    {
+        <div asp-validation-summary="All" class="alert alert-warning"></div>
+    }
+    <div>
+        <label asp-for="Recipient"></label>
+        <input asp-for="Recipient" />
+    </div>
+    <div>
+        <label asp-for="Subject"></label>
+        <input asp-for="Subject" />
+    </div>
+    <div>
+        <label asp-for="Body"></label>
+        <textarea asp-for="Body" rows="5"></textarea>
+    </div>
+    <div>
+        <label>Email Testing</label>
+        <input type="checkbox" name="emailTesting" class="text-left"/>
+    </div>
+    <div>
+        <button type="submit">Send</button>
+    </div>
+</form>

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clarity Emailer - @ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/custom.css?Version=1" />
+</head>
+<body>
+    <div class="container">
+
+        @if (TempData.Peek("alert") != null)
+        {
+            <div class="alert alert-info">@TempData["alert"]</div>
+        }
+        
+        <header class="mb-3 pl-2">
+            <h1>Clarity Emailer</h1>
+            <h7>By Kevin Karosy</h7>
+            
+            <div>
+                <nav class="btn-group mt-3 mb-2">
+                    <a class="btn btn-outline-secondary" asp-controller="Home" asp-action="Index">Home</a>
+                    <a class="btn btn-outline-secondary" asp-controller="Email" asp-action="Index">Send Email</a>
+                    <a class="btn btn-outline-secondary" asp-controller="Email" asp-action="ViewEmails">View Emails</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class ="mb-3" role="main">
+            @RenderBody()
+        </main>
+
+        <footer class="pt-3 pb-5">
+            <center>Thanks for visiting.</center>
+        </footer>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
