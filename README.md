@@ -1,7 +1,7 @@
 # ClarityEmailer
 Created by Kevin Karosy, for Clarity.
 
-I'm happy to demonstrate this project live.
+I'm happy to demonstrate this project in a video call, if desired.
 
 ## The two projects
 - This repository has 2 projects inside.
