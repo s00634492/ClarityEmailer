@@ -1,0 +1,22 @@
+﻿header, footer{
+    background-color:lightgrey;
+}
+header{
+    border-bottom: 1px solid grey;
+}
+main{
+    min-height:400px;
+}
+footer{
+    border-top: 1px solid grey;
+}
+
+#emailForm label{
+    width:50%;
+    max-width:120px;
+    vertical-align:top;
+}
+#emailForm input, #emailForm textarea{
+    width:50%;
+    max-width:700px;
+}
